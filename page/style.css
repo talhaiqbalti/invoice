@@ -21,7 +21,7 @@ body{
     height: 70%;
     width: 478px;
     clip-path: polygon(0 0, 100% 0, 78.25% 100%, 0% 100%);
-    background-color: black;
+    /* background-color: gray; */
     position: absolute;
     top: 0;
     left: 0;
@@ -55,7 +55,7 @@ body{
 }
 .part2{
     width: 100%;
-    height: 130px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-around;
 }
@@ -65,7 +65,7 @@ body{
 }
 .part2 .b1 h5{
     color: navy;
-    margin-top: 20px;
+   
 }
 .part2 .b1 h2{
     margin-top: 4px;
@@ -74,18 +74,18 @@ body{
     margin-top: 4px;
     font-size: small;
 }
-.part2 .b2{
-    width: 40%;
+.b2{
     height: 100;
-    padding-left: 75px;
+  
 }
-.part2 .b2 h4{
+.b2 h4{
     color: navy;
-    margin-top: 30px;
+    font-size: 22px;
+    margin-top: 10px;
 }
-.part2 .b2 p{
+.b2 p{
     display: inline-block;
-    font-size: small;
+    font-size: 14px!important;
     margin-top: 6px;
 }
 .part3{
@@ -108,7 +108,7 @@ body{
 }
 .part4 .c{
     width: 100%;
-    height: 50px;
+    height: 30px;
     position: relative;
 }
 .part4 .c0{
@@ -168,7 +168,7 @@ body{
 }
 .part5{
     width: 100%;
-    height: 180px;
+    margin-bottom: 10px;
    
 
     /* added by talha */
@@ -179,7 +179,7 @@ body{
 }
 .part6{
     width: 100%;
-    height: 120px;
+  
     
       /* added by talha */
       padding: 0px 37px 0px 37px ;
@@ -198,19 +198,24 @@ body{
     margin: 30px;
 }
 .headTitle{
-    margin-top: 20px;
-    margin-left: 150px;
+    margin-top: 70px;
+    margin-left: 110px;
     color: white!important;
-    font-size: 11px!important;
+    font-size: 13px!important;
     font-weight: 400;
+}
+.headTitle>p{
+    margin-bottom: 5px;
 }
 .headTitle>h5{
     color: white;
-    font-size: 42px!important;
+    font-size: 38px!important;
     font-weight: 600;
-    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 25px;
     letter-spacing: 3px;
-    
+ 
 }
 .bg{
     background-color: transparent!important;
@@ -277,7 +282,11 @@ body{
     flex: 6;
 }
 .h2{
-    flex: 2;    
+    flex: 2;   
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end; 
 }
 .bottomBar{
     width: 480px;
@@ -290,5 +299,15 @@ body{
 }
 #stamp{
     height: 200px;
-    margin-top: -40px;
+    
+    position: absolute;
+    
+
+
+}
+.b1{
+    border: 1px dashed black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
 }
